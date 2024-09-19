@@ -12,13 +12,22 @@ h4 {
 }
 #para:focus,
 #para:active {
-  box-shadow: 0px 10px 25px rgba(150, 234, 255, 0.4);
+  box-shadow: 0px 0px 20px rgb(211, 203, 203);
+  border: none !important;
 }
 .last:hover,
 .last:active {
   color: black;
 }
 
+
+.text{
+  width: 55%;
+  height: 30vh;
+  padding: 5px;
+  background-color: rgb(211, 203, 203);
+  border:none !important;
+}
 @media only screen and (max-width: 992px) {
   #para {
     width: 70% !important;
