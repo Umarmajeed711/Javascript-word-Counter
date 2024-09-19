@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Marmelad&display=swap");
+h1 {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 500;
+}
+#para,
+h4 {
+  font-family: "Marmelad", sans-serif;
+  transition: all 0.3s;
+}
+#para:focus,
+#para:active {
+  box-shadow: 0px 10px 25px rgba(150, 234, 255, 0.4);
+}
+.last:hover,
+.last:active {
+  color: black;
+}
+
+@media only screen and (max-width: 992px) {
+  #para {
+    width: 70% !important;
+  }
+  #result {
+    width: 70% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #para {
+    width: 90% !important;
+  }
+  #result {
+    width: 90% !important;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .top {
+    margin-top: 20px !important;
+  }
+  #para {
+    width: 99% !important;
+  }
+  #result {
+    width: 99% !important;
+    margin-top: 50px !important;
+  }
+}
